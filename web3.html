@@ -1,0 +1,22 @@
+<DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+<h1 id="txt">0</h1>
+<button id="btn">click</button>
+
+<script>
+let btn = document.getElementById('btn')
+let text = document.getElementById('txt')
+let realtxt = 0 ;
+btn.addEventListener('click', () => {
+	realtxt++;
+	text.textContent = realtxt;
+});
+
+</script>
+</body>
+</html>
